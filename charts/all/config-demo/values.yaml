@@ -12,3 +12,12 @@ global:
 
 clusterGroup:
   isHubCluster: true
+
+namespaces:
+  lab-kafka
+
+subscriptions:
+  amq-streams:
+    name: amq-streams
+    namespace: lab-kafka
+
